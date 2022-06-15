@@ -1,6 +1,6 @@
 # Testerra demos
 
-This project demonstrates different features of [Testerra framework]([https://github.com/telekom/testerra]).
+This project demonstrates different features of [Testerra 2 framework]([https://github.com/telekom/testerra]).
 
 For a simple skeleton project please have a look to https://github.com/telekom/testerra-skeleton.
 
