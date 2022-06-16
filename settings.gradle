@@ -1,4 +1,4 @@
-rootProject.name = 'testerra-skeletons'
+rootProject.name = 'testerra-demo'
 include "minimal"
 include "page-objects"
 include "inject-factories"

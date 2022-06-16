@@ -6,7 +6,7 @@ subprojects {
 
     apply plugin: 'java-library'
 
-    group 'io.testerra.skeletons'
+    group 'io.testerra.demo'
     version '2-SNAPSHOT'
 
     repositories {
