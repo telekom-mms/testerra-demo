@@ -1,5 +1,5 @@
 ext {
-    testerraVersion = '2.0-RC-21'
+    testerraVersion = '2.2'
 }
 
 subprojects {
