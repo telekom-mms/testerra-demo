@@ -59,7 +59,7 @@ At the same time our commitment to open source means that we are enabling -in fa
 
 ## Licensing
 
-Copyright (c) 2022 T-Systems MMS GmbH.
+Copyright (c) 2022 Deutsche Telekom MMS GmbH.
 
 Licensed under the **Apache License, Version 2.0** (the "License"); you may not use this file except in compliance with the License.
 
