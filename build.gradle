@@ -21,7 +21,8 @@ subprojects {
 
     compileJava.options.encoding = 'UTF-8'
     compileTestJava.options.encoding = "UTF-8"
-    sourceCompatibility = 8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 
     dependencies {
         implementation "io.testerra:driver-ui-desktop:${testerraVersion}"

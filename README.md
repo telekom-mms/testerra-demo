@@ -14,13 +14,14 @@ For simplicity, we will use Gradle as build and dependency management tool.
 
 This project contains several subprojects as examples.
 
-| Subproject         | Description                                                       |
-|--------------------|-------------------------------------------------------------------|
-| *minimal*          | The absolute minimal example for performing a Web based test.     |
-| *page-objects*     | A minimal example using the page objects pattern                  |
-| *layout-check*     | A simple example how to check layouts.                            |
-| *inject-factories* | Shows how to inject your own page factory as a technical example. |
-| *the-internet*     | More complex practical examples from Testerra 1 skeleton.         |
+| Subproject         | Description                                                                                           |
+|--------------------|-------------------------------------------------------------------------------------------------------|
+| *minimal*          | The absolute minimal example for performing a Web based test.                                         |
+| *page-objects*     | A minimal example using the page objects pattern                                                      |
+| *layout-check*     | A simple example how to check layouts.                                                                |
+| *inject-factories* | Shows how to inject your own page factory as a technical example.                                     |
+| *the-internet*     | More complex practical examples from Testerra 1 skeleton.                                             |
+| *selenium4-bidi*   | Demonstrate using the Selenium 4 BiDi featuress like WebDriver BiDi and ChromeDeveloperTools support. | 
 
 ## Execution
 
