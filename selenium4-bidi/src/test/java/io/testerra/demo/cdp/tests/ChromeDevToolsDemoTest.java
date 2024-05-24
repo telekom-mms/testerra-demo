@@ -30,11 +30,11 @@ import org.openqa.selenium.UsernameAndPassword;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.events.ConsoleEvent;
-import org.openqa.selenium.devtools.v118.log.Log;
-import org.openqa.selenium.devtools.v118.log.model.LogEntry;
-import org.openqa.selenium.devtools.v118.network.Network;
-import org.openqa.selenium.devtools.v118.network.model.RequestWillBeSent;
-import org.openqa.selenium.devtools.v118.network.model.ResponseReceived;
+import org.openqa.selenium.devtools.v125.log.Log;
+import org.openqa.selenium.devtools.v125.log.model.LogEntry;
+import org.openqa.selenium.devtools.v125.network.Network;
+import org.openqa.selenium.devtools.v125.network.model.RequestWillBeSent;
+import org.openqa.selenium.devtools.v125.network.model.ResponseReceived;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -165,8 +165,8 @@ public class ChromeDevToolsDemoTest extends AbstractTest implements ChromeDevToo
         List<ResponseReceived> responseList = new ArrayList<>();
         List<RequestWillBeSent> requestList = new ArrayList<>();
 
-        devTools.addListener(Network.responseReceived(), responseList::add);
-        devTools.addListener(Network.requestWillBeSent(), requestList::add);
+        devTools.addListener(Network.responseReceived(), response -> responseList.add(response));
+        devTools.addListener(Network.requestWillBeSent(), request -> requestList.add(request));
 
         webDriver.get("https://the-internet.herokuapp.com/broken_images");
 
