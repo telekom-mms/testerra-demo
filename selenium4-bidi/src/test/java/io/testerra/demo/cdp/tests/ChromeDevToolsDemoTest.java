@@ -30,11 +30,11 @@ import org.openqa.selenium.UsernameAndPassword;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.events.ConsoleEvent;
-import org.openqa.selenium.devtools.v125.log.Log;
-import org.openqa.selenium.devtools.v125.log.model.LogEntry;
-import org.openqa.selenium.devtools.v125.network.Network;
-import org.openqa.selenium.devtools.v125.network.model.RequestWillBeSent;
-import org.openqa.selenium.devtools.v125.network.model.ResponseReceived;
+import org.openqa.selenium.devtools.v130.log.Log;
+import org.openqa.selenium.devtools.v130.log.model.LogEntry;
+import org.openqa.selenium.devtools.v130.network.Network;
+import org.openqa.selenium.devtools.v130.network.model.RequestWillBeSent;
+import org.openqa.selenium.devtools.v130.network.model.ResponseReceived;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
